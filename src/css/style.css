@@ -1,0 +1,42 @@
+body {
+    background: hsla(209, 58.94%, 70.39%, 0.5);
+    margin: 0;
+    color: hsl(210, 25.37%, 26.27%);
+}
+h1 {
+    margin: 0;
+}
+.page__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img--profile {
+    border: 10px outset hsla(29, 58.94%, 70.39%, 0.95);
+    border-radius: 100%;
+    inset: 0rem;
+    margin: auto;
+    position: fixed;
+    width: 25%;
+    display: none;
+}
+.top-container {
+    border: 10px solid;
+    padding: 20px;
+}
+.middle-container {
+    background-color: rgb(101,135,168);
+    border: 20px solid;
+    margin-left: 260px;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+}
+
+.bottom-container {
+    background-color: rgb(224,236,247);
+    border: 10px solid;
+    margin-left: 500px;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+}
