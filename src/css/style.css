@@ -21,32 +21,24 @@ h2, h3 {
 .img--profile {
     border: 10px outset hsla(29, 58.94%, 70.39%, 0.95);
     border-radius: 100%;
-    inset: 0rem;
-    margin: auto;
-    position: fixed;
-    width: 25%;
-    display: none;
+    /* inset: 0rem; */
+    /* margin: auto; */
+    /* position: fixed; */
+    width: 15em;
+    /* display: none; */
 }
 .top-container {
-    border: 10px solid;
+    /* border: 10px solid; */
     /* padding: 20px; */
     padding-top: 100px;
     position: relative;
 }
 .middle-container {
     background-color: rgb(101,135,168);
-    border: 20px solid;
-    margin-left: 260px;
-    width: 200px;
-    aspect-ratio: 1 / 1;
 }
 
 .bottom-container {
     background-color: rgb(224,236,247);
-    border: 10px solid;
-    margin-left: 500px;
-    width: 200px;
-    aspect-ratio: 1 / 1;
 }
 .top-cloud {
     position: absolute;
