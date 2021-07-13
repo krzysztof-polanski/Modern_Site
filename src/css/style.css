@@ -1,10 +1,16 @@
 body {
+    font-family: 'Merriweather Sans', sans-serif;
     background: hsla(209, 58.94%, 70.39%, 0.5);
     margin: 0;
     color: hsl(210, 25.37%, 26.27%);
+    text-align: center;
 }
 h1 {
+    font-family: 'Sacramento', cursive;
     margin: 0;
+}
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 .page__header {
     display: flex;
@@ -23,7 +29,9 @@ h1 {
 }
 .top-container {
     border: 10px solid;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 100px;
+    position: relative;
 }
 .middle-container {
     background-color: rgb(101,135,168);
@@ -39,4 +47,12 @@ h1 {
     margin-left: 500px;
     width: 200px;
     aspect-ratio: 1 / 1;
+}
+.top-cloud {
+    position: absolute;
+    inset: 3em 0 0 60%;
+}
+.bottom-cloud {
+    position: absolute;
+    inset: 12em 0 0 30%;
 }
