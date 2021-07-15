@@ -52,19 +52,22 @@ hr {
 .top-container__h2 {
     font-family: 'Montserrat', sans-serif;
 }
-
-.top-container__top-cloud {
+.top-container__cloud {
+    max-width: 23%;
+}
+.cloud-top {
     position: absolute;
     inset: 3em 0 0 50%;
     z-index: -1;
 }
-.top-container__bottom-cloud {
+.cloud-bottom {
     position: absolute;
-    inset: 16rem 0 0 10%;
+    inset: 15rem 0 0 10%;
     z-index: -1;
 }
 .top-container__mountain {
     max-width: 100%;
+    max-height: 45vh;
 }
 .middle-container {
     padding: 0 20px;
@@ -153,17 +156,20 @@ hr {
     hr {
         max-width: 5%;
     }
-    .top-container__top-cloud {
-        inset: 3em 0 0 66%;
+    .top-container__cloud {
+        max-width: 25%;
     }
-    .top-container__bottom-cloud {
+    .cloud-top {
+        inset: 3em 0 0 80%;
+    }
+    .cloud-bottom {
         inset: 18rem 0 0 20%;
         opacity: 1.0;
     }
-    .top-container h1 {
+    .top-container__h1 {
         font-size: 5.625rem;
     }
-    .skill__row:first-of-type img {
+    .skill__row:nth-of-type(1) img {
         float: left;
         margin-right: 30px;
         max-height: max-content;
@@ -184,7 +190,7 @@ hr {
 }
 
 @media screen and (max-width: 300px) {
-    .top-container__top-cloud {
+    .cloud-top {
         position: absolute;
         inset: 3em 0 0 40%;
         z-index: -1;
